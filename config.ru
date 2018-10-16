@@ -3,4 +3,4 @@
 require ::File.expand_path('../config/environment', __FILE__)
 run Rails.application
 
-get '/students', to: 'application#index', as: 'index'
+get '/students', to: 'students#index', as: 'index'
